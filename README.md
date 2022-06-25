@@ -13,6 +13,7 @@ hydra for the http-post (from source page method is POST)**
 ![hydra tool to bruteforce a password](http_post.png "hydra")
 
 **and there it is, the username and the password of the user. No we login into the http page and we can find the web_flag and the rsa_key which is lead to the ssh login**
+
 ![login successfull](login_bypass.png)
 
 **The RSA private key needs to be decrypted for ssh login. And JohnTheRipper easily solve our problem for that. For that it needs to be converted to hash such a way that it can further be decrypted by JTR tool and give us the password for ssh login.**

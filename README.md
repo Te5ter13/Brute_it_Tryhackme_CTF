@@ -1,4 +1,4 @@
-[Brute It](Brute_it.jpg)
+![Brute It](Brute_it.jpg)
 ## This is an easy and simple room for all the begineers on CTF. This is a room from THM with the main focus on hash cracking and privelege escallation technique.
 
 **First we will look out the open ports with their version and vulnerability if any found. For the nmap tool comes into act.**

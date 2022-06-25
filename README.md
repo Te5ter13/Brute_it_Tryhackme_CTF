@@ -2,5 +2,5 @@
 
 **First we will look out the open ports with their version and vulnerability if any found. For the nmap tool comes into act.**
 
-![nmap output with service running and version number] (nmap_txt.png)
+![nmap output with service running and version number](blob/main/nmap_text.png)
 

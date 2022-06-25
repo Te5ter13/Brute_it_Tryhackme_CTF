@@ -20,7 +20,9 @@ hydra for the http-post (from source page method is POST)**
 ![hash cracking by john](hash_crack_john.png)
 
 **And now we can easily login to the ssh shell for gaining our remaining flag. But most of the time I forget to login changing the permission on rsa decrypted code. It first need to be rw---- access (chmod 400) so that we can login to the ssh shell. The ssh login cmd goes by:**
+
 ***ssh -i id_rsa host@IP***
+
 Now we are into the user shell
 
 ![user login by ssh](user_flag.png)
